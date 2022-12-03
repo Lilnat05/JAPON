@@ -1,0 +1,14 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.grille {
+    display: grid;
+    grid-template-columns:15% 70% 15%;
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.entete{
+    grid-area: 1/1/2/4;
+}
