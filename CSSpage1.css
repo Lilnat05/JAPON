@@ -2,13 +2,37 @@ body{
     margin: 0px;
     padding: 0px;
 }
+div{
+    border: solid 1px;
+    border-color: blueviolet;
+}
 .grille {
     display: grid;
-    grid-template-columns:15% 70% 15%;
+    grid-template-columns: 20% 60% 20%;
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 }
 .entete{
     grid-area: 1/1/2/4;
+}
+.gauche{
+    grid-area: 2/1/5/2;
+}
+.droite{
+    grid-area: 2/3/5/4;
+}
+.piedpage{
+    grid-area: 5/1/6/4;
+}
+p{
+    text-align: center;
+}
+.photodroite {
+    max-width: 100%;
+    max-height: 100%;
+}
+.photogauche {
+    max-width: 100%;
+    max-height: 100%;
 }
